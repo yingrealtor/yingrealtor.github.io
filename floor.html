@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Floor Sample Colors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Responsive grid */
+      gap: 20px; /* Space between images */
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+    }
+
+    .gallery img {
+      width: 100%; /* Make images fill their container */
+      height: auto; /* Maintain aspect ratio */
+      border: 3px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05); /* Enlarge slightly on hover */
+      border-color: #555;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Please Check Out these floor, pick one you like and text me the number#</h1>
+
+  <div class="gallery">
+    <img src="assets/img/floor/1.jpg" alt="Floor Color ">
+    <img src="assets/img/floor/2.jpg" alt="Floor Color 2">
+    <img src="assets/img/floor/3.jpg" alt="Floor Color 3">
+    <img src="assets/img/floor/4.jpg" alt="Floor Color 4">
+    <img src="assets/img/floor/5.jpg" alt="Floor Color 5">
+    <img src="assets/img/floor/6.jpg" alt="Floor Color 6">
+  </div>
+
+</body>
+</html>
+
